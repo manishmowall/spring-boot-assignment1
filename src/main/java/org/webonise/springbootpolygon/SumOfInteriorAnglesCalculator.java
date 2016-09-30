@@ -1,8 +1,6 @@
-package org.webonise.polygon;
+package org.webonise.springbootpolygon;
 
 public interface SumOfInteriorAnglesCalculator {
 
     int getSumOfInteriorAngles(int noOfSides);
-
-    int getSumOfInteriorAngles(Polygon polygon);
 }

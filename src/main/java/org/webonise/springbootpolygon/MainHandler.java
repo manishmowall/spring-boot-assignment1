@@ -1,4 +1,4 @@
-package org.webonise.polygon;
+package org.webonise.springbootpolygon;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -13,7 +13,7 @@ public class MainHandler implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        this.application.start();
+        application.start();
     }
 
     public static void main(String[] args) {
